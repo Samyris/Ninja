@@ -1,13 +1,84 @@
-#logomarca{
-	width: 200px;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	
+#logomarca {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h1{
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+body {
+  background-color: #0e0014;
+  padding-right: 170px;
+  padding-left: 170px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fbe5ff;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 1px;
+  font-family: "New Century Schoolbook", TeX Gyre Schola, serif;
+}
+h2 {
+  color: white;
+  font-family: "New Century Schoolbook", TeX Gyre Schola, serif;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  text-shadow: 0.1em 0.1em 0.2em #8e22b4;
+}
+p {
+  color: white;
+  text-align: justify;
+  font-family: "Comic Sans MS," Comic Sans, cursive;
+}
+iframe {
+  display: flex;
+  align-content: center;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+ul {
+  color: white;
+  list-style-image: url(img/globo.png);
+}
+ol {
+  color: white;
+}
+a:link {
+  color: blue;
+}
+a:hover {
+  color: cyan;
+}
+a:active {
+  color: gold;
+}
+#armas {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 15px;
+}
+#vestimenta {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 25px;
+}
+#mulher {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 25px;
+}
+#armas-ninjas {
+  margin-bottom: 10px;
+}
+#ninjas-mulheres {
+  margin-bottom: 10px;
 }
